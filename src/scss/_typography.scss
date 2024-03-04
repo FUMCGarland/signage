@@ -1,0 +1,20 @@
+// https://github.com/crissdev/bootstrap-scss/blob/master/_variables.scss
+
+// define defaults here
+$-signage-font-serif: Georgia, Times, "Times New Roman", Merriweather, serif;
+$-signage-line-height: 1.25em;
+$-signage-margin-bottom: 0.25rem;
+
+h1 {
+  text-shadow: 1px 1px rgb(136, 136, 136);
+  opacity: 95%;
+}
+
+// the standard set, overridden by classes below
+@mixin typography($style: roman) {
+  font-family: $-signage-font-serif;
+  margin-bottom: $-signage-margin-bottom;
+  line-height: $-signage-line-height;
+  margin-top: 0;
+  font-style: $style;
+}

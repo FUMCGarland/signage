@@ -1,0 +1,8 @@
+{
+  "name": "First UMC Garland Signage",
+  "short_name": "fumcg-signage",
+  "description": "First UMC Garland Signage",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "http://fumc01.first.local"
+}

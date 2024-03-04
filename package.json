@@ -1,0 +1,46 @@
+{
+  "name": "fumcg-signage",
+  "version": "1.0.0",
+  "description": "Displays for First UMC Garland",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --host covert",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "format": "prettier --write .",
+    "prod": "scp -4 -r dist/* scar.indievisible.org:public_html/fumcg-signage/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gh:cloudkucooland/fumcg-signage"
+  },
+  "author": "Scot C. Bontrager",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudkucooland/fumcg-signage/issues"
+  },
+  "homepage": "https://github.com/cloudkucooland/fumcg-signages#readme",
+  "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.1",
+    "@sveltejs/vite-plugin-svelte": "^2.2.0",
+    "@tsconfig/svelte": "^4.0.1",
+    "@types/gapi": "^0.0.47",
+    "@types/gapi.auth2": "^0.0.60",
+    "@types/gapi.client.calendar-v3": "^0.0.4",
+    "bootstrap-scss": "^5.1.3",
+    "prettier-plugin-svelte": "^2.8.0",
+    "sass": "^1.56.2",
+    "scss": "^0.2.4",
+    "svelte": "^3.59.1",
+    "svelte-check": "^3.3.2",
+    "svelte-preprocess": "^5.0.0",
+    "svelte-select": "^5.0.0",
+    "svelte-spa-router": "^3.3.0",
+    "svelte-toasts": "^1.1.2",
+    "vite": "^4.3.5"
+  },
+  "dependencies": {
+    "sveltestrap": "^5.10.0"
+  }
+}
