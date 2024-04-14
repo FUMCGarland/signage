@@ -1,5 +1,5 @@
 {
-  "name": "fumcg-signage",
+  "name": "signage",
   "version": "1.0.0",
   "description": "Displays for First UMC Garland",
   "private": true,
@@ -8,19 +8,18 @@
     "build": "vite build",
     "dev": "vite --host covert",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "format": "prettier --write .",
-    "prod": "scp -4 -r dist/* scar.indievisible.org:public_html/fumcg-signage/"
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
-    "url": "gh:cloudkucooland/fumcg-signage"
+    "url": "gh:FUMCGarland/signage"
   },
   "author": "Scot C. Bontrager",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cloudkucooland/fumcg-signage/issues"
+    "url": "https://github.com/FUMCGarland/signage/issues"
   },
-  "homepage": "https://github.com/cloudkucooland/fumcg-signages#readme",
+  "homepage": "https://github.com/FUMCGarland/signage#readme",
   "devDependencies": {
     "@rollup/plugin-replace": "^5.0.1",
     "@sveltejs/vite-plugin-svelte": "^2.2.0",
